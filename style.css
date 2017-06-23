@@ -14,9 +14,6 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-#logo, .header form input {
-}
-
 .header form {
   padding: 20px 15px;
 }
@@ -27,7 +24,7 @@ body {
 }
 
 .header form input {
-  width: 550px;
+  width: 600px;
   height: 40px;
   border: 1px solid #cecece;
   box-shadow: 0px 1px 2px #aaa;
@@ -69,21 +66,50 @@ body {
 /* Header - Results Navigation */
 
 .results-nav {
+  margin-top: -35px;
+  margin-left: 95px;
   font-family: sans-serif;
   font-size: small;
-  color: #555;
+  width: 640px;
 }
 
-.types {
-  list-style-type: none;
+.results-nav a {
+  text-decoration: none;
+  color: #777;
 }
 
 .options {
-  list-style-type: none;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.results-nav ul {
+  display: inline-block;
+  margin: 0;
+}
+
+.results-nav li {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 0;
+}
+
+.types li:first-child {
+  border-bottom: 3px solid #58f;
+}
+
+#selected {
+  color: #58f;
+  font-weight: bold;
 }
 
 
 /* Results List */
+
+.list {
+  display: none; /* shrink page to compare footer / header */
+}
 
 .list h1 a {
   text-decoration: none;
