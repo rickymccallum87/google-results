@@ -107,10 +107,6 @@ body {
 
 /* Results List */
 
-.list {
-  display: none; /* shrink page to compare footer / header */
-}
-
 .list h1 a {
   text-decoration: none;
   font-size: 18px;
@@ -139,4 +135,8 @@ body {
   font-size: small;
   text-decoration: none;
   color: #444;
+}
+
+.list, .related, .more, .footer {
+  display: none;
 }
