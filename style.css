@@ -185,6 +185,32 @@ a {
 }
 
 
+/* More Search Results */
+
+.more {
+}
+
+.more ul {
+  text-align: center;
+}
+
+.more li {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.more li:last-child {
+  width: 40px;
+}
+
+.more #more-head {
+  background: url(/more.png) no-repeat;
+  width: 30px;
+}
+
+
  /* Footer */
 
 .footer {
@@ -208,6 +234,6 @@ a {
   color: #444;
 }
 
-.more, .footer {
+.footer {
   display: none;
 }
