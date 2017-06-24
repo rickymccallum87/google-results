@@ -205,11 +205,6 @@ a {
   width: 40px;
 }
 
-.more #more-head {
-  background: url(/more.png) no-repeat;
-  width: 30px;
-}
-
 
  /* Footer */
 
@@ -218,8 +213,9 @@ a {
   width: 100%;
   bottom: 0;
   left: 0;
-  background-color: #ececec;
+  background-color: #f5f5f5;
   border-top: 1px solid #ddd;
+  padding-left: 150px;
 }
 
 .footer ul, .footer li {
@@ -228,12 +224,16 @@ a {
   margin: 0;
 }
 
-.footer a {
-  font-family: sans-serif;
-  font-size: small;
-  color: #444;
+.footer ul {
+  margin-left: -30px;
 }
 
-.footer {
-  display: none;
+.footer p, .footer a {
+  font-family: sans-serif;
+  font-size: small;
+  color: #777;
+}
+
+.footer p #location {
+  color: #aaa;
 }
