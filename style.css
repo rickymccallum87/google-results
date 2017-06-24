@@ -7,6 +7,9 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
 
  /* Header - Form */
 
@@ -75,7 +78,6 @@ body {
 }
 
 .results-nav a {
-  text-decoration: none;
   color: #777;
 }
 
@@ -120,7 +122,6 @@ body {
 /* Results List */
 
 .list h1 a {
-  text-decoration: none;
   font-size: 18px;
   font-weight: normal;
   color: darkblue;
@@ -140,13 +141,47 @@ body {
   line-height: 1.5em;
 }
 
-.match {
+.list .match {
   font-weight: bold;
   color: #444;
 }
 
 .result-date {
   color: #888;
+}
+
+
+/* Related */
+
+.related h1 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.related ul {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 0;
+}
+
+.related li {
+  line-height: 1.7em;
+}
+
+.related a {
+  color: darkblue;
+}
+
+.related .match {
+  font-weight: normal;
+}
+
+.related #column2 {
+  padding-left: 40px;
 }
 
 
@@ -170,10 +205,9 @@ body {
 .footer a {
   font-family: sans-serif;
   font-size: small;
-  text-decoration: none;
   color: #444;
 }
 
-.related, .more, .footer {
+.more, .footer {
   display: none;
 }
